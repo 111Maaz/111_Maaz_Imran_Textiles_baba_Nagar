@@ -72,7 +72,7 @@ function Hero() {
           transition={{ duration: 1, delay: 0.8 }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-6 tracking-wide"
         >
-          The Art of the Sherwani, Perfected in Hyderabad
+          Hyderabad's Destination for Premium Menswear
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
