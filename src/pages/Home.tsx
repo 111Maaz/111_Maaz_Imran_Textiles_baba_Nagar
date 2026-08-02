@@ -302,7 +302,7 @@ function Showroom() {
               <span className="text-gold font-semibold mr-2">Store Hours:</span> Open Daily, 11:00 AM - 11:00 PM
             </div>
 
-            <a href="https://www.google.com/maps/dir/?api=1&destination=18-12-418/D/78/4,+Hafiz+Baba+Nagar+North,+Hyderabad,+Telangana+500058" target="_blank" rel="noopener noreferrer" className="inline-block border border-foreground text-foreground px-8 py-4 text-xs tracking-widest uppercase hover:bg-foreground hover:text-background transition-colors duration-500">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Imran+Textiles,+18-12-418%2FD%2F78%2F4,+Hafiz+Baba+Nagar+North,+Hafiz+Baba+Nagar,+Hyderabad,+Telangana+500058" target="_blank" rel="noopener noreferrer" className="inline-block border border-foreground text-foreground px-8 py-4 text-xs tracking-widest uppercase hover:bg-foreground hover:text-background transition-colors duration-500">
               Plan Your Visit
             </a>
           </motion.div>

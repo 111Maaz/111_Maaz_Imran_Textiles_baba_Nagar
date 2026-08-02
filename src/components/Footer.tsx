@@ -7,7 +7,7 @@ export function Footer() {
         <div id="footer" className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center mb-24">
           <div className="w-full h-[300px] md:h-[400px] border border-border/50 bg-muted/20 relative">
             <iframe 
-              src="https://maps.google.com/maps?q=18-12-418/D/78/4,+Hafiz+Baba+Nagar+North,+Hyderabad,+Telangana+500058&t=k&z=19&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Imran+Textiles,+18-12-418%2FD%2F78%2F4,+Hafiz+Baba+Nagar+North,+Hafiz+Baba+Nagar,+Hyderabad,+Telangana+500058&t=k&z=19&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
