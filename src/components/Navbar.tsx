@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 import { motion } from 'framer-motion';
+import logo from '@/assets/generated_images/logo1.png';
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,12 @@ export function Navbar() {
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <Link href="/" className="group">
+        <Link href="/" className="group flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Imran Textiles logo"
+            className="h-11 w-11 rounded-full object-cover md:h-12 md:w-12"
+          />
           <h1 className={`font-serif text-2xl md:text-3xl tracking-[0.2em] uppercase transition-colors duration-500 ${scrolled ? 'text-foreground' : 'text-white'}`}>
             Imran Textiles
           </h1>
